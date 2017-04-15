@@ -1,0 +1,128 @@
+
+body {
+    background: #CBBB9B;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper {
+    width: 960px;
+    height: auto;
+    background: #DAD5C1;
+    border-left: 5px solid #A09885;
+    border-right: 5px solid #A09885;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+#header {
+    width: 100%;
+    height: 100px;
+    border-bottom: 3px solid #7C7063;
+}
+#logo {
+    float: left;
+    margin: 20px 0px 10px 70px;
+    width: 350px;
+    height: 60px;
+}
+#logo {
+    display: inline-block;    
+}
+#social {
+    float: right;
+    margin: 10px 1px 0px 1px;
+    padding-top: 20px;
+}
+
+#social li {
+    display: inline-block;
+    list-style: none;
+}
+#social img {
+    height: 55px;
+    width: 55px;
+}
+#sidebar {
+    float: left;
+    width: 275px;
+    height: 100%;
+}
+#menu ul {
+    float: left;
+    height: auto;
+    width: 200px;   
+}
+#menu ul li {
+        list-style: none;
+        padding: 5px;
+        text-align: center;
+}
+#menu ul li a {
+    background: #CBBB9B;
+    color: #4E4F3E;
+    text-decoration: none;
+    padding: 10px 0px;
+    display: block; 
+}
+#menu ul li a:hover {
+    color: #FFF;
+}
+#content {
+    float: left;
+    width: 655px;
+    height: 100%;
+    padding-left: 15px;
+    letter-spacing: 1px;
+    color: #57574C;
+    border-left: 3px solid #7C7063;
+}
+h1 {
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid #7C7063;
+}
+p {
+    text-indent: 50px;
+    line-height: 25px;
+}
+img {
+    float: right;
+    padding: 0px 0px 5px 5px;
+}
+.top a {
+    color: #4E4F3E;
+    text-decoration: none;
+}
+.top :hover {
+    color: #FFF;
+}
+table {
+    margin: 20px auto;
+    width: 60%;
+    border: 2px solid #7C7063;
+    border-radius: 10px;
+    vertical-align: middle;
+    empty-cells:hide;
+}
+th {
+    border: 1px solid slategray;
+}
+iframe {
+    margin-left: 55px;
+}  
+#footer {
+    clear: both;
+    width: 100%;
+    height: 80px;
+    color: #7C7063;
+    border-top: 1px solid #7C7063;
+}
+h5 {
+    text-align: center;
+}
+iframe {
+    width: 560px;
+    height: 315px;
+    border: none;
+}
